@@ -1,0 +1,57 @@
+.header {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 15rem;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav ul li {
+    font-size: 1.4rem;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #696a6b;
+    font-weight: 500;
+  }
+  
+  .nav ul li a.active {
+    color: #FF3131;
+    font-weight: bold;
+  }
+  
+  /* Hover solo para los enlaces excepto el ícono de usuario */
+  .nav ul li a:hover:not(.user-icon) {
+    text-decoration: underline;
+    color: #FF3131;
+  }
+  
+  .user-icon {
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  .user-icon-svg {
+    width: 3rem; 
+    height: 3rem;
+    stroke: #FF3131;
+  }
+  
+  .user-icon-svg:hover {
+    stroke: #e62b2b;
+  }
+  

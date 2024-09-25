@@ -1,0 +1,45 @@
+.inicio-content {
+  text-align: start;
+  padding: 20px 20px;
+}
+
+.inicio-content h1 {
+  color: #FF3131;
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.inicio-content p {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 0 30px 0;
+}
+
+.inicio-content button {
+  background-color: #FF3131;
+  color: #FFFFFF; 
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.inicio-content button:hover {
+  background-color: #e62b2b; /* Oscurecer el rojo en hover */
+}
+
+/* Estilos para los enlaces en el párrafo */
+.highlight-link {
+  color: #FF3131; /* Rojo por defecto */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.highlight-link:hover {
+  color: #e62b2b; /* Rojo más oscuro en hover */
+}

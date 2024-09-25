@@ -1,0 +1,50 @@
+.orbes-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Altura completa de la ventana */
+  z-index: -1; /* Para que queden detrás del contenido */
+  /*overflow: hidden;  Para evitar que las órbitas salgan de la pantalla */
+}
+
+.orbe {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,49,49,1) 0%, rgba(255,49,49,0) 70%);
+  animation: float 50s ease-in-out infinite;
+  opacity: 0.3;
+}
+
+.orbe-1 { /* Mediana */
+  width: 300px;
+  height: 300px;
+  top: 80%;
+  left: 50%;
+}
+
+.orbe-2 { /* Chica */
+  width: 300px;
+  height: 300px;
+  bottom: 45%;
+  right: 83%;
+}
+
+.orbe-3 { /* Grande */
+  width: 500px;
+  height: 500px;
+  top: 15%;
+  left: 70%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(20px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
